@@ -1,0 +1,33 @@
+<style>
+  body {
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    background-size: 5000px;
+  }
+  .card {
+    background: #e3ffab;
+  }
+  #a-tag {
+    background-color: rgb(81, 189, 117);
+    border: 2px solid rgb(81, 189, 129);
+    transition: all 0.4s;
+  }
+  #a-tag:hover {
+    background-color: #1b6535;
+    color: white;
+  }
+</style>
+<div class="row mt-5">
+  <div class="col-md-6 m-auto">
+    <div class="card card-body text-center">
+      <h1><i class="far fa-comment-dots fa-3x"></i></h1>
+      <p>Welcome to MessengerX</p>
+      <a
+        href="/users/register"
+        class="btn btn-primary btn-block mb-2"
+        style="background-color: #1b6535; border: 2px solid rgb(7, 92, 7)"
+        >Register</a
+      >
+      <a href="/users/login" class="btn btn-block" id="a-tag">Login</a>
+    </div>
+  </div>
+</div>
