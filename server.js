@@ -22,7 +22,7 @@ require("./config/passport")(passport);
 
 // Connect to MongoDB
 mongoose
-  .connect("mongodb://localhost:27017/express", {
+  .connect(process.env.MONGODB_URI || "mongodb://localhost:27017/express", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
