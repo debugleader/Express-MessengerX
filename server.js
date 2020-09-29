@@ -186,7 +186,7 @@ io.on("connection", (socket) => {
   });
 });
 
-const PORT_server = process.env.PORT_server || 3000;
+const PORT_server = process.env.PORT || 3000;
 
 server.listen(PORT_server, () =>
   console.log(`First Server running on port ${PORT_server}`)
