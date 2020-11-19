@@ -2,7 +2,11 @@
 
 MessengerX is a **web application** used for instant _messaging_ and for _group chats_.
 
-![MessengerX Demo Image](https://i.ibb.co/j87ZM5K/msgx.png)
+---
+
+> <img src="https://i.ibb.co/j87ZM5K/msgx.png" width="900"/>
+
+---
 
 # Why?
 
